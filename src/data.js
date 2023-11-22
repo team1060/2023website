@@ -1,0 +1,54 @@
+const vData = [
+    {
+        id:1,
+        title:"title1",
+        content:"content",
+        img:"img1.png"
+    },
+    {
+        id:2,
+        title:"title2",
+        content:"content",
+        img:"img2.png"
+    },
+    {
+        id:3,
+        title:"title3",
+        content:"content",
+        img:"img3.png"
+    },
+    {
+        id:4,
+        title:"title4",
+        content:"content",
+        img:"img4.png"
+    },
+]
+const vData1 = [
+    {
+        id:1,
+        title:"vtitle1",
+        content:"content",
+        img:"img1.png"
+    },
+    {
+        id:2,
+        title:"vtitle2",
+        content:"content",
+        img:"img2.png"
+    },
+    {
+        id:3,
+        title:"vtitle3",
+        content:"content",
+        img:"img3.png"
+    },
+    {
+        id:4,
+        title:"vtitle4",
+        content:"content",
+        img:"img4.png"
+    },
+]
+
+export {vData, vData1}  

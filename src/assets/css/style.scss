@@ -1,0 +1,87 @@
+$primary: skyblue;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+
+    &.bg {
+        background-color: skyblue;
+        border-radius: 10px;
+
+        &.com {
+            background: darkblue;
+            color: white;
+        }
+
+        &.comm {
+            background: gold;;
+        }
+    }
+
+    .visualProduct {
+        display: flex;
+        li {
+            width: 25%;
+            position: relative;
+            
+            a {
+                display: block;
+                background: pink;
+
+            }
+            .bodyWrap {
+                position: absolute;
+                bottom: 10px;
+                background: skyblue;
+                width: 100%;
+                padding: 5px 10px;
+            }
+        }
+    }
+}
+
+.header {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto; // 부모 속성이 flex일때 사용
+
+    li {
+        padding: 10px 15px;
+
+        a.active {
+            background: pink;
+        }
+    }
+}
+
+.primary {
+    background: $primary;
+}
+
+.h100 {
+    height: 100px !important;
+}
+
+.h200 {
+    height: 200px !important;
+}
